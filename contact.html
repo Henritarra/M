@@ -7,9 +7,11 @@
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/fab449e6ad.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
 
     <title>Maria Portela Larisch</title>
 </head>
@@ -20,20 +22,31 @@
             <h1 id="nome">
                 Maria Portela Larisch
             </h1>
-            <div id="buttons">
+            <div id=buttons class="topnav">
                 <a href="index.html">Home</a>
                 <a href="biography.html">Biography</a>
                 <a href="media.html">Media</a>
                 <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                  </a>
             </div>
+            
+        </nav>
+        <div id="colapse">
+            <a href="index.html">Home</a>
+            <a href="biography.html">Biography</a>
+            <a href="media.html">Media</a>
+            <a href="contact.html">Contact</a>
+        </div>
         </nav>
 
         <div class="Hero5">
         </div>
     </header>
 
-    <div id="contact">
-        <form>
+    <div id="contactdiv">
+        <form class="contact" id="contactForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
         </br>    
@@ -43,7 +56,7 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
         </br>    
-            <button class="buttonform" type="button" onclick="submitForm()">Submit</button>
+            <button class="submit" type="submit">Submit</button>
         </form>
     </div>
 
@@ -56,6 +69,45 @@
 
     </footer>
  
-    <script src="script.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        const contact = document.querySelector(".contact");
+let name = document.getElementById("name");
+let email = document.getElementById("email");
+let message = document.getElementById("message");
+
+contact.addEventListener("submit",(e)=>{
+    e.preventDefault();
+    
+    let formData = {
+        name: name.value,
+        email: email.value,
+        message: message.value
+    }
+
+    let xhr = new XMLHttpRequest();
+    xhr.open("POST", "/");
+    xhr.setRequestHeader("content-type", "application/json");
+    xhr.onload = function(){
+        console.log(xhr.responseText);
+        if(xhr.responseText == "success"){
+            alert("Email sent");
+            name.value = "";
+            email.value = "";
+            message.value = "";
+        }else{
+            alert("something went wrong")
+        }
+    }
+
+    xhr.send(JSON.stringify(formData));
+})
+    </script>
+    <script>
+        function toggleMenu() {
+  var x = document.getElementById("colapse");
+  x.classList.toggle("responsive");
+}
+    </script>
     
 </body>

@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/fab449e6ad.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -20,14 +22,24 @@
             <h1 id="nome">
                 Maria Portela Larisch
             </h1>
-            <div id="buttons">
+            
+            <div id=buttons class="topnav">
                 <a href="index.html">Home</a>
                 <a href="biography.html">Biography</a>
                 <a href="media.html">Media</a>
                 <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                  </a>
             </div>
+            
         </nav>
-
+        <div id="colapse">
+            <a href="index.html">Home</a>
+            <a href="biography.html">Biography</a>
+            <a href="media.html">Media</a>
+            <a href="contact.html">Contact</a>
+        </div>
         <div class="Hero">
         <div class="Hero2">
         </div>
@@ -92,7 +104,12 @@
             <box class="ConcLink"><a href ="https://www.concerti.de/termine/mozart-albrecht-der-schauspieldirektor-theater-aachen-241300/" target="_blank">Info & Tickets</a></box>
         </div>
     </div>
-
+    <script>
+        function toggleMenu() {
+  var x = document.getElementById("colapse");
+  x.classList.toggle("responsive");
+}
+    </script>
     <footer>
         <div>
             <p>Photos by Henrique Almeida, Anna Tena, Janet Sinica, Katja Illner and Damian Lovegrove</p>

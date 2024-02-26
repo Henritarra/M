@@ -18,6 +18,7 @@
 
 <body>
     <header>
+        <div id="dick"></div>
         <nav>
             <h1 id="nome">
                 Maria Portela Larisch
@@ -32,14 +33,14 @@
                     <i class="fa-solid fa-bars"></i>
                   </a>
             </div>
-            
+            <div id="colapse">
+                <a href="index.html">Home</a>
+                <a href="biography.html">Biography</a>
+                <a href="media.html">Media</a>
+                <a href="contact.html">Contact</a>
+            </div> 
         </nav>
-        <div id="colapse">
-            <a href="index.html">Home</a>
-            <a href="biography.html">Biography</a>
-            <a href="media.html">Media</a>
-            <a href="contact.html">Contact</a>
-        </div>
+        
         <div class="Hero">
         <div class="Hero2">
         </div>
@@ -51,7 +52,7 @@
     
     <div id="Mega2">
         <div class="myconcerts">
-            <h2> Upcoming Concerts </h2>
+            <h2> Upcoming Concerts</h2>
         </div>
         <div class="concerts2">
             <box class="ConcDate"><b>FEB 16 THU</b><p>19:00</p></box>
@@ -105,9 +106,12 @@
         </div>
     </div>
     <script>
-        function toggleMenu() {
+    
+    function toggleMenu() {
   var x = document.getElementById("colapse");
   x.classList.toggle("responsive");
+  var z = document.getElementById("dick");
+  z.classList.toggle("pink");
 }
     </script>
     <footer>

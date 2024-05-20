@@ -82,8 +82,6 @@ nav {margin:10px 14% 0 14%;
 
 }
 
-
-
 #Mega {
 	margin: 0 20% 0 20%;
 	
@@ -102,7 +100,7 @@ nav {margin:10px 14% 0 14%;
 
 .concerts2 {
 	display:flex;
-	
+	align-items: center;
 	padding: 20px;
 	background-color: rgba(39, 116, 116, 0.4);
 	margin: 20px 0 20px 0;
@@ -117,33 +115,33 @@ nav {margin:10px 14% 0 14%;
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
-.concerts2 box {
+/* .concerts2 box {
 	display: inline;
 	text-align: left;
 	align-self: center;
 	padding-left: 10px;
-}
+} */
 
 .ConcDate {
-	flex: 1;
+	width: 20%;
 }
 
 .ConcInfo {
-	flex: 2;
+	width: 60%;
 }
 
 .ConcLink {
-	padding-right: 20px;
-	padding-left: 15px;
-	/* flex: 1; */
+	text-align: center;
+	width: 20%;
 }
 
 .ConcDate p {
-	padding-left: 28px;
+	/* padding-left: 28px; */
 	margin-top: 5px;
 }
 
-footer {margin-top: 50px;
+footer {
+	margin-top: 50px;
 	text-align: center;
 }
 
@@ -242,7 +240,7 @@ footer {margin-top: 50px;
 	margin: 0 0 70px 0;
 }
 .bands {
-	margin: 0px 30px 0px 30px;
+	margin: 0px 5% 0px 5%;
 	padding: 10px;
 	color:black;
 	text-decoration: none;
@@ -327,8 +325,15 @@ input, textarea {
 	}
 
 	.Hero, .Hero2, .Hero3, .Hero4 {
-		background-position: center;
+		background-repeat: no-repeat;		
+	}
 
+	.Hero3 {
+		background-position: 32%;
+	}
+
+	.Hero4 {
+		background-position: 40%;
 	}
 
 	#colapse.responsive {
@@ -366,39 +371,82 @@ input, textarea {
 
 @media screen and (max-width: 650px) {
 	
-	nav {
-		align-items: flex-start; 
+	header {
+		background: transparent;
 	}
 
+	nav {
+		align-items: flex-start; 
+		margin:10px 14% 0 4%;
+	}
+	
 	.icon {
 		padding: 10px 0 0 0;
 	}
 	.Hero, .Hero2 {
+		/* position:absolute; */
+		margin-top: -115px;
 		background-size: cover;
+		/* width:100%; */
+		align-items:flex-start;
 		background-repeat: no-repeat;
 		background-position: center;
 	} 
 	#nome {
+		font-size: 30px;
 		width:50px;
 	}
 	#nome2 {
-		width:50px;
+		font-size: 28px;
+		width:250px;
 	}
+	
+	.bio {
+		margin: 70px 16% 60px 16%;
+		font-size: 16px;
+	}
+
+	.myconcerts {
+		margin-top: 15px;
+	}
+
+	.myconcerts h2 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	.concerts2 {
+		padding: 2% 2% 2% 2%;
+	}
+
+	.ConcDate, .ConcInfo, .ConcLink {
+		padding: 2%;
+		padding-right: -5%;
+	}
+	
 	.ConcDate {
-		font-size: 15px;
-		padding-left: 0px;
-	}
-	.ConcLink {
-		font-size: 15px;
-		width: 60px;
-	}
-	.ConcInfo{
-		font-size:16px;
+		font-size: 13px;
 		
 	}
-	.concerts2 box{
-		padding: 0px;
+
+	.ConcDate p {
+		font-size: 12px;
+		
 	}
+
+	.ConcLink {
+		font-size: 11px;
+		margin-left: 0px;
+		padding-right: 0px;
+	}
+	.ConcInfo {
+		font-size:12px;
+	}
+
+	.ConcInfo h5 {
+		font-size: 13px;	
+	}
+
 	#colapse {
 		position: absolute;
 		top: 90px;
@@ -433,4 +481,8 @@ input, textarea {
 		background:linear-gradient(to bottom, rgba(255, 255, 255,0) 5%, rgba(255,255,255,0.7));
 	}
 
+	footer {
+		margin: 30px 10% 10% 10%;
+		font-size: 12px;
+	}
 }

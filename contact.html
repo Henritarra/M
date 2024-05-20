@@ -11,7 +11,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "_U1hhyggIeM1nIaG3",
+      });
+   })();
+</script>
 
     <title>Maria Portela Larisch</title>
 </head>
@@ -46,7 +55,7 @@
     </header>
 
     <div id="contactdiv">
-        <form class="contact" id="contactForm">
+        <form class="contact" id="contactForm" onsubmit="return SendMail(event)">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
         </br>    
@@ -73,38 +82,35 @@
  
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script>
-        const contact = document.querySelector(".contact");
-let name = document.getElementById("name");
-let email = document.getElementById("email");
-let message = document.getElementById("message");
+function SendMail(event) {
+        // Prevent the form from submitting normally
+        event.preventDefault();
 
-contact.addEventListener("submit",(e)=>{
-    e.preventDefault();
-    
-    let formData = {
-        name: name.value,
-        email: email.value,
-        message: message.value
+        // Gather form data
+        var formData = {
+            from_name: document.getElementById("name").value,
+            email_id: document.getElementById("email").value,
+            message: document.getElementById("message").value,
+            subject: document.getElementById("subject").value
+        };
+
+        // Send the email using emailjs
+    if (formData.subject && formData.subject.trim() !=="") {
+        alert("Email sent.")
+    } else {
+        emailjs.send("service_5vwh2hs", "template_yddgmmr", formData)
+            .then(function (res) {
+                alert("Message sent!");
+            }, function (error) {
+                console.log("Failed to send email:", error);
+                alert("Failed to send message. Please try again.");
+            });
+
+        return false; // Prevent the form from submitting in the default manner
     }
-
-    let xhr = new XMLHttpRequest();
-    xhr.open("POST", "/");
-    xhr.setRequestHeader("content-type", "application/json");
-    xhr.onload = function(){
-        console.log(xhr.responseText);
-        if(xhr.responseText == "success"){
-            alert("Email sent");
-            name.value = "";
-            email.value = "";
-            message.value = "";
-        }else{
-            alert("something went wrong")
-        }
     }
-
-    xhr.send(JSON.stringify(formData));
-})
     </script>
+
     <script>
         function toggleMenu() {
   var x = document.getElementById("colapse");

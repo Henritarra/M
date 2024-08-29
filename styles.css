@@ -369,6 +369,10 @@ input, textarea {
 
 @media screen and (max-width: 650px) {
 	
+	header {
+		background-attachment: scroll;
+	}
+
 	.container--margin {
 		margin: 0 2% 0 2%;
 	}

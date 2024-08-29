@@ -12,7 +12,7 @@ body {
 }
 
 header {
-	height: 108vh;
+	height: 108svh;
 	background-size:cover;
 	background-attachment: fixed;
 	background-position: center top;
@@ -62,20 +62,20 @@ nav {
 	z-index: 1;
 	display: block;
 	position: absolute;
-	transform: scale(1.5);
-	border-radius: 20%;
+	/* transform: scale(1.5); */
+	/* border-radius: 20%; */
 	height:100%;
 	width: 100%;
-	background:linear-gradient(to bottom, rgba(255, 255, 255,0) 5%, rgba(255,255,255,0.7));
+	/* background:linear-gradient(to bottom, rgba(255, 255, 255,0) 5%, rgba(255,255,255,0.7)); */
 }
 
  #collapse--menu {
 	display: flex;
 	position: absolute;
 	top: 70px;
-	right: 4%;				
+	right: 1%;				
 	margin-right: 0;
-	transform: translate(25%, 0);
+	/* transform: translate(25%, 0); */
 	flex-direction: column;
 	gap: 10px;
 }
@@ -89,7 +89,7 @@ nav {
 	color: black;
 	font-size: 19px;
 	text-decoration: none;
-	padding: 5px ;
+	padding: 5px 0px;
 }
 
 footer {
@@ -101,103 +101,6 @@ footer p {
 	margin: 10px 0px;
 }
 
-/* If you mess with the screen */
-@media screen and (min-width: 1151px) {
-	#collapse--menu {
-		display: none;
-	}
-}
-
-
-@media screen and (max-width: 1150px) {
-	
-	.icon {
-		display:block;
-	}
-	.nav-menu a:not(.icon) {
-		display: none;
-	}
-	#collapse--background {
-		transition: 1s;
-		border-radius: 20%;
-		background:linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(255,255,255,0.4));
-	}
-	.concerts2 .ConcDate b {
-		display: inline-block;
-		max-width: 80px;
-	}
-}
-
-@media screen and (max-width: 650px) {
-	
-	.container--margin {
-		margin: 0 2% 0 2%;
-	}
-
-	#nome {
-		font-size: 30px;
-		width:50px;
-	}
-	
-	#collapse--menu {
-		top: 90px;
-		font-size: 12px;
-		gap: 1px;
-		transform: translate(0, 0);
-	}
-
-	#collapse--menu a {
-		font-size: 12px;
-	}
-
-	.bio {
-		margin: 70px 16% 60px 16%;
-		font-size: 16px;
-	}
-
-	.myconcerts h2 {
-		margin-top: 0px;
-		margin-bottom: 0px;
-		text-align: center;
-	}
-
-	.ConcInfo, .ConcLink {
-		padding: 2%;
-		padding-right: -5%;
-	}
-
-	.concerts2 .ConcDate b {
-		display: inline-block;
-		max-width: 55px;
-	}
-	
-	.ConcDate {
-		font-size: 13px;
-	}
-
-	.ConcDate p {
-		font-size: 12px;
-	}
-
-	.ConcLink {
-		font-size: 11px;
-		margin-left: 0px;
-		padding-right: 0px;
-	}
-
-	.concerts2 .ConcInfo p {
-		font-size:12px;
-	}
-
-	.concerts2 .ConcInfo h5 {
-		font-size: 16px;	
-	}
-
-	footer {
-		font-size: 10px;
-	}
-}
-
 /*___________________________________________________Index___________________________________________*/
 
 header.index {
@@ -206,7 +109,7 @@ header.index {
 
 .header--gradient {
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0,0,0,1));
-	height: 108vh;
+	height: 108svh;
 	background-size:cover;
 	background-attachment: scroll;
 }
@@ -261,6 +164,7 @@ header.index {
 .concerts2 {
 	display:flex;
 	align-items: center;
+	justify-content: space-between;
 	padding: 20px;
 	background-color: rgba(39, 116, 116, 0.4);
 	margin: 20px 0 20px 0;
@@ -301,6 +205,18 @@ header.biopage {
 .bio {
 	margin: 70px 22% 60px 22%;
 }
+
+.bandsdiv {
+	text-align: center;
+	margin: 0 0 70px 0;
+}
+.bands {
+	margin: 0px 5% 0px 5%;
+	padding: 10px;
+	color:black;
+	text-decoration: none;
+	background-color: rgba(39, 116, 116, 0.2);
+  }
 
 /*___________________________________________________MEDIAPAGE___________________________________________*/
 header.mediapage{
@@ -420,56 +336,115 @@ input, textarea {
 	background-color: rgba(39, 116, 116, 0.6);
 }
 
-/*______________________________________________________FIM DA PÁGINA_________________________________________*/
+/*______________________________________________________MEDIA QUERIES_________________________________________*/
 
-
-
-/* .Hero3 {
-	background-image: url("Fotos/IMG_1677small.jpg");
-	height: 1100px;
-	background-size:cover;
-	background-attachment:fixed;
-	align-items: top;
-	margin-top: -150px;
-	} */
-
-
-/* .Hero4 {
-	background-image: url("Fotos/JS_03755@JanetSinicasmall.jpg");
-	height: 1100px;
-	background-size:cover;
-	background-attachment:fixed;
-	align-items: top;
-	margin-top: -150px;
-} */
-
-
-
-
-
-/* .Hero5 {
-	background-image: url("Fotos/IMG_1606small.jpg");
-	height: 1100px;
-	background-size:cover;
-	background-attachment:fixed;
-	background-position: center;
-	background-color: rgba(214, 237, 250, 0.5);
-	align-items: top;
-	margin-top: -150px;
-	background-repeat: no-repeat;
-} */
-
-.bandsdiv {
-	text-align: center;
-	margin: 0 0 70px 0;
+/* If you mess with the screen */
+@media screen and (min-width: 1151px) {
+	#collapse--menu {
+		display: none;
+	}
 }
-.bands {
-	margin: 0px 5% 0px 5%;
-	padding: 10px;
-	color:black;
-	text-decoration: none;
-	background-color: rgba(39, 116, 116, 0.2);
-  }
+
+
+@media screen and (max-width: 1150px) {
+	
+	.icon {
+		display:block;
+	}
+	.nav-menu a:not(.icon) {
+		display: none;
+	}
+	#collapse--background {
+		transition: 1s;
+		border-radius: 10%;
+		/* transform: translate(-5%, 0); */
+		transform: scale(115%);
+		
+	}
+	.concerts2 .ConcDate b {
+		display: inline-block;
+		max-width: 80px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	
+	.container--margin {
+		margin: 0 2% 0 2%;
+	}
+
+	#nome {
+		font-size: 33px;
+		width:50px;
+	}
+	
+	#collapse--menu {
+
+		top: 90px;
+		gap: 8px;
+		transform: translate(4%, 0);
+	}
+
+	#collapse--background {
+		background:linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 5%, rgba(255,255,255,0.4));
+	}
+
+	#collapse--menu a {
+		font-size: 18px;
+		/* color: #ffdcdc */
+	}
+
+	.bio {
+		margin: 70px 16% 60px 16%;
+		font-size: 16px;
+	}
+
+	.myconcerts h2 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		text-align: center;
+	}
+
+	.concerts2 {
+		padding: 8px;
+		justify-content: space-between;
+	}
+
+	.concerts2 .ConcDate b {
+		display: inline-block;
+		max-width: 55px;
+	}
+	
+	.ConcDate {
+		font-size: 13px;
+		width: 20%;
+	}
+
+	.ConcDate p {
+		font-size: 12px;
+	}
+
+	.ConcLink {
+		font-size: 11px;
+		margin-left: 0px;
+		padding-right: 0px;
+		width: 15%;
+	}
+
+	.concerts2 .ConcInfo p {
+		font-size:12px;
+	}
+
+	.concerts2 .ConcInfo h5 {
+		font-size: 14px;	
+	}
+
+	footer {
+		font-size: 10px;
+	}
+}
+
+
 
 
 

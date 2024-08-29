@@ -21,17 +21,17 @@
       });
    })();
 </script>
-
+<script defer src="script.js"></script>
     <title>Maria Portela Larisch</title>
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="contactpage">
+        <nav class="container--margin">
             <h1 id="nome">
                 Maria Portela Larisch
             </h1>
-            <div id=buttons class="topnav">
+            <div id="buttons" class="nav-menu">
                 <a href="index.html">Home</a>
                 <a href="biography.html">Biography</a>
                 <a href="media.html">Media</a>
@@ -41,19 +41,18 @@
                   </a>
             </div>
             
-        </nav>
-        <div id="colapse">
+        <div id="collapse--menu" class="responsive">
+            
+            <div id="collapse--background"></div>
+
             <a href="index.html">Home</a>
             <a href="biography.html">Biography</a>
             <a href="media.html">Media</a>
             <a href="contact.html">Contact</a>
         </div>
         </nav>
-
-        <div class="Hero5">
-        </div>
     </header>
-
+    
     <div id="contactdiv">
         <form class="contact" id="contactForm" onsubmit="return SendMail(event)">
             <label for="name">Name:</label>
@@ -109,13 +108,6 @@ function SendMail(event) {
         return false; // Prevent the form from submitting in the default manner
     }
     }
-    </script>
-
-    <script>
-        function toggleMenu() {
-  var x = document.getElementById("colapse");
-  x.classList.toggle("responsive");
-}
     </script>
     
 </body>

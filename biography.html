@@ -11,18 +11,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
+    <script defer src="script.js"></script>
     <title>Maria Portela Larisch</title>
 </head>
 
 <body>
-    <header>
-        <div id="dick"></div>
-        <nav>
+    <header class="biopage">
+        <nav class="container--margin">
             <h1 id="nome">
                 Maria Portela Larisch
             </h1>
-            <div id=buttons class="topnav">
+            
+            <div id="buttons" class="nav-menu">
                 <a href="index.html">Home</a>
                 <a href="biography.html">Biography</a>
                 <a href="media.html">Media</a>
@@ -32,8 +32,8 @@
                   </a>
             </div>
             
-        </nav>
-        <div id="colapse">
+        <div id="collapse--menu" class="responsive">
+            <div id="collapse--background"></div>
             <a href="index.html">Home</a>
             <a href="biography.html">Biography</a>
             <a href="media.html">Media</a>
@@ -41,9 +41,8 @@
         </div>
         </nav>
 
-        <div class="Hero3">
-        </div>
     </header>
+
 
     <div class="bio">
         <p>After piano and violin lessons, Maria Portela Larisch was accepted into the children’s choir of the Theatre of La Monnaie at the age of eight. She soon received her first singing lessons from Eunice Arias before starting to study at the IMEP (Namur, Belgium) in 2015.</p>
@@ -67,14 +66,6 @@
         </div>
 
     </footer>
-    <script>
-        function toggleMenu() {
-  var x = document.getElementById("colapse");
-  x.classList.toggle("responsive");
-  var z = document.getElementById("dick");
-  z.classList.toggle("pink");
-}
-    </script>
-    <script src="script.js" defer></script>
+    
     
 </body>

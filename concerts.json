@@ -1,0 +1,494 @@
+{
+
+    "concerts": [
+    
+        {
+    "date": "SEP 21 SAT 2024",
+    "hour": "16:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Frankenplatz, Düsseldorf",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "SEP 21 SAT 2024",
+    "hour": "19:30",
+    "description": "Klima.Requiem with Nico Koehs, Ensemble for Future and Orchester des Wandels",
+    "location": "Konzertsaal der HfMT Köln",
+    "entrad alivre": true
+    },
+    
+    {
+    "date": "SEP 22 SUN 2024",
+    "hour": "16:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Frankenplatz, Düsseldorf",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "SEP 23 MON 2024",
+    "hour": "11:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Frankenplatz, Düsseldorf",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "SEP 25 WED 2024",
+    "hour": "11:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Frankenplatz, Düsseldorf",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "SEP 26 THU 2024",
+    "hour": "11:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Frankenplatz, Düsseldorf",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "SEP 27 FRI 2024",
+    "hour": "11:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Frankenplatz, Düsseldorf",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "SEP 28 SAT 2024",
+    "hour": "19:00",
+    "description": "Innocence (Kaija Sariaaho) with Chorwerk Ruhr",
+    "location": "Musiktheater im Revier",
+    "link": "https://musiktheater-im-revier.de/de/performance/2024-25/innocence"
+    },
+    
+    {
+    "date": "OCT 4 FRI 2024",
+    "hour": "11:30",
+    "description": "And then she said… Recital around female poets with Jou-an Chen and teenagers",
+    "location": "Kammermusiksaal HfMT Köln",
+    "link": "#"
+    },
+    
+    {
+    "date": "OCT 5 SAT 2024",
+    "hour": "19:00",
+    "description": "Innocence (Kaija Sariaaho) with Chorwerk Ruhr",
+    "location": "Musiktheater im Revier",
+    "link": "https://musiktheater-im-revier.de/de/performance/2024-25/innocence"
+    },
+    
+    {
+    "date": "OCT 11 FRI 2024",
+    "hour": "19:00",
+    "description": "The Cold Trip (Bernhard Lang) with Cologne Guitar Quartet",
+    "location": "Soundlinks Festival - Köln",
+    "link": "https://soundlinks.de/en/"
+    },
+    
+    {
+    "date": "OCT 18 FRI 2024",
+    "hour": "19:00",
+    "description": "The Cold Trip (Bernhard Lang) with Cologne Guitar Quartet",
+    "location": "Festival Internacional de Guitarra de Santo Tirso - Portugal",
+    "link": "https://figst.cm-stirso.pt/"
+    },
+    
+    {
+    "date": "OCT 23 WED 2024",
+    "hour": "19:30",
+    "description": "Composing Voices",
+    "location": "KROHNE Messtechnik Veranstaltungssaal - Duisburg",
+    "link": "https://www.theater-duisburg.de/spielplan/a-z/composing-voices/"
+    },
+    
+    {
+    "date": "OCT 27 SUN 2024",
+    "hour": "18:00",
+    "description": "Innocence (Kaija Sariaaho) with Chorwerk Ruhr",
+    "location": "Musiktheater im Revier",
+    "link": "https://musiktheater-im-revier.de/de/performance/2024-25/innocence"
+    },
+    
+    {
+    "date": "NOV 1 FRI 2024",
+    "hour": "18:00",
+    "description": "Droben im Licht (Johannes Brahms, Peter Cornelius, Robert Schumann) with Chorwerk Ruhr and Bochumer Symphoniker (Soloist and choir)",
+    "location":"Anneliese Brost Musikforum Ruhr - Bochum",
+    "link":"https://chorwerkruhr.de/projekt/droben-im-licht/"
+    },
+    
+    {
+    "date": "NOV 10 SUN 2024",
+    "hour": "18:00",
+    "description": "Innocence (Kaija Sariaaho) with Chorwerk Ruhr",
+    "location": "Musiktheater im Revier",
+    "link": "https://musiktheater-im-revier.de/de/performance/2024-25/innocence"
+    },
+    
+    {
+    "date": "NOV 16 SAT 2024",
+    "hour": "20:30",
+    "description": "Hinos da Revolução with Cantus Portugueses",
+    "location": "Bürgerzentrum Ehrenfeld - Köln",
+    "link": "https://cantusportugueses.com/"
+    },
+    
+    {
+    "date": "NOV 19 TUE 2024",
+    "hour": "20:00",
+    "description": "Christmas program with Gilu, Musica et Poetica series",
+    "location": "Zilverzand - Belgium",
+    "link": "https://www.musicaetpoetica.be/agenda"
+    },
+    
+    {
+    "date": "NOV 20 WED 2024",
+    "hour": "20:00",
+    "description": "Christmas program with Gilu, Musica et Poetica series",
+    "location": "Voorkempen - Belgium",
+    "link": "https://www.musicaetpoetica.be/agenda"
+    },
+    
+    {
+    "date": "NOV 21 THU 2024",
+    "hour": "20:00",
+    "description": "Christmas program with Gilu, Musica et Poetica series",
+    "location": "'s Gravenkamer - Belgium",
+    "link": "https://www.musicaetpoetica.be/agenda"
+    },
+    
+    {
+    "date": "NOV 22 FRI 2024",
+    "hour": "20:00",
+    "description": "Christmas program with Gilu, Musica et Poetica series",
+    "location": "Gent - Belgium",
+    "link": "https://www.musicaetpoetica.be/agenda"
+    },
+    
+    {
+    "date": "NOV 23 SAT 2024",
+    "hour": "20:00",
+    "description": "Christmas program with Gilu, Musica et Poetica series",
+    "location": "Tervuren - Belgium",
+    "link": "https://www.musicaetpoetica.be/agenda"
+    },
+    
+    {
+    "date": "NOV 28 THU 2024",
+    "hour": "15:00",
+    "description": "Weihnachten in Lied und Wort, Herzmusik",
+    "location": "Theater Duisburg",
+    "link": "https://www.theater-duisburg.de/spielplan/a-z/herzmusik/"
+    },
+    
+    {
+    "date": "DEC 1 SUN 2024",
+    "hour": "11:00",
+    "description": "Weihnachten in Lied und Wort",
+    "location": "Foyer - Theater Duisburg",
+    "link": "https://www.theater-duisburg.de/spielplan/kalender/weihnachten-in-lied-und-wort-24/1476/"
+    },
+    
+    {
+    "date": "DEC 1 SUN 2024",
+    "hour": "18:00",
+    "description": "Innocence (Kaija Sariaaho) with Chorwerk Ruhr",
+    "location": "Musiktheater im Revier",
+    "link": "https://musiktheater-im-revier.de/de/performance/2024-25/innocence"
+    },
+    
+    {
+    "date": "DEC 2 MON 2024",
+    "hour": "20:00",
+    "description": "Christmas program with Gilu, Musica et Poetica series",
+    "location": "Brasschaat - Belgium",
+    "link": "https://www.musicaetpoetica.be/agenda"
+    },
+    
+    {
+    "date": "DEC 15 SUN 2024",
+    "hour": "11:00",
+    "description": "Weihnachten in Lied und Wort",
+    "location": "Foyer - Theater Duisburg",
+    "link": "https://www.theater-duisburg.de/spielplan/kalender/weihnachten-in-lied-und-wort-24/1476/"
+    },
+    
+    {
+    "date": "DEC 17 TUE 2024",
+    "hour": "20:00",
+    "description": "Christmas program with Gilu, Musica et Poetica series",
+    "location": "Antwerpen - Belgium",
+    "link": "https://www.musicaetpoetica.be/agenda"
+    },
+    
+    {
+    "date": "DEC 18 WED 2024",
+    "hour": "20:00",
+    "description": "Christmas program with Gilu, Sereni",
+    "location": "Antwerpen - Belgium",
+    "link": "https://www.sereni.be/artikel/intiem-huiskamerconcert-sereni-antwerpen-trio-gilu-zang-harp-viool-18-december/"
+    },
+    
+    {
+    "date": "DEC 19 THU 2024",
+    "hour": "20:00",
+    "description": "Christmas program with Gilu, Musica et Poetica series",
+    "location": "Keerbergen - Belgium",
+    "link": "https://www.musicaetpoetica.be/agenda"
+    },
+    
+    {
+    "date": "DEC 20 FRI 2024",
+    "hour": "20:00",
+    "description": "Christmas program with Gilu, Musica et Poetica series",
+    "location": "Damme - Belgium",
+    "link": "https://www.musicaetpoetica.be/agenda"
+    },
+    
+    {
+    "date": "DEC 29 SUN 2024",
+    "hour": "18:00",
+    "description": "Innocence (Kaija Sariaaho) with Chorwerk Ruhr",
+    "location": "Musiktheater im Revier",
+    "link": "https://musiktheater-im-revier.de/de/performance/2024-25/innocence"
+    },
+    
+    {
+    "date": "JAN 11 SAT 2025",
+    "hour": "19:00",
+    "description": "Innocence (Kaija Sariaaho) with Chorwerk Ruhr",
+    "location": "Musiktheater im Revier",
+    "link": "https://musiktheater-im-revier.de/de/performance/2024-25/innocence"
+    },
+    
+    {
+    "date": "FEB 16 SUN 2025",
+    "hour": "18:00",
+    "description": "Innocence (Kaija Sariaaho) with Chorwerk Ruhr",
+    "location": "Musiktheater im Revier",
+    "link": "https://musiktheater-im-revier.de/de/performance/2024-25/innocence"
+    },
+    
+    {
+    "date": "MAR 20 THU 2025",
+    "hour": "19:30",
+    "description": "Innocence (Kaija Sariaaho) with Chorwerk Ruhr",
+    "location": "Musiktheater im Revier",
+    "link": "https://musiktheater-im-revier.de/de/performance/2024-25/innocence"
+    },
+    
+    {
+    "date": "APR 16 TUE 2024",
+    "hour": "11:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Dellplatz, Duisburg",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "APR 17 WED 2024",
+    "hour": "11:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Dellplatz, Duisburg",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "APR 18 THU 2024",
+    "hour": "11:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Dellplatz, Duisburg",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "APR 22 MON 2024",
+    "hour": "11:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Dellplatz, Duisburg",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "APR 23 TUE 2024",
+    "hour": "11:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Dellplatz, Duisburg",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "APR 24 WED 2024",
+    "hour": "11:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Dellplatz, Duisburg",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "APR 25 THU 2024",
+    "hour": "11:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Dellplatz, Duisburg",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "APR 13 SAT 2024",
+    "hour": "16:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Dellplatz, Duisburg",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "APR 14 SUN 2024",
+    "hour": "16:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Dellplatz, Duisburg",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "APR 20 SAT 2024",
+    "hour": "16:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Dellplatz, Duisburg",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "APR 28 SUN 2024",
+    "hour": "16:00",
+    "description": "Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)",
+    "location": "UFO - Dellplatz, Duisburg",
+    "link": "https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine"
+    },
+    
+    {
+    "date": "JUN 8 SAT 2024",
+    "hour": "19:30",
+    "description": "Mozart: Albrecht - Der Schauspieldirektor",
+    "location": "Theater Aachen",
+    "link": "https://www.concerti.de/termine/mozart-albrecht-der-schauspieldirektor-theater-aachen-241300/"
+    },
+    
+    {
+    "date": "JUN 18 TUE 2024",
+    "hour": "18:00",
+    "description": "Mozart: Albrecht - Der Schauspieldirektor",
+    "location": "Theater Aachen",
+    "link": "https://www.concerti.de/termine/mozart-albrecht-der-schauspieldirektor-theater-aachen-241300/"
+    },
+    
+    {
+    "date": "JUN 23 SUN 2024",
+    "hour": "11:00",
+    "description": "Mozart: Albrecht - Der Schauspieldirektor",
+    "location": "Theater Aachen",
+    "link": "https://www.concerti.de/termine/mozart-albrecht-der-schauspieldirektor-theater-aachen-241300/"
+    },
+    
+    {
+    "date": "JUN 25 TUE 2024",
+    "hour": "19:30",
+    "description": "Mozart: Albrecht - Der Schauspieldirektor",
+    "location": "Theater Aachen",
+    "link": "https://www.concerti.de/termine/mozart-albrecht-der-schauspieldirektor-theater-aachen-241300/"
+    },
+    
+    {
+    "date": "JUN 26 WED 2024",
+    "hour": "19:30",
+    "description": "Mozart: Albrecht - Der Schauspieldirektor",
+    "location": "Theater Aachen",
+    "link": "https://www.concerti.de/termine/mozart-albrecht-der-schauspieldirektor-theater-aachen-241300/"
+    },
+    
+    {
+    "date": "JUN 30 SUN 2024",
+    "hour": "19:30",
+    "description": "Mozart: Albrecht - Der Schauspieldirektor",
+    "location": "Theater Aachen",
+    "link": "https://www.concerti.de/termine/mozart-albrecht-der-schauspieldirektor-theater-aachen-241300/"
+    },
+    
+    {
+    "date": "JUL 2 TUE 2024",
+    "hour": "19:30",
+    "description": "Mozart: Albrecht - Der Schauspieldirektor",
+    "location": "Theater Aachen",
+    "link": "https://www.concerti.de/termine/mozart-albrecht-der-schauspieldirektor-theater-aachen-241300/"
+    },
+    
+    {
+    "date": "JUL 5 FRI 2024",
+    "hour": "19:30",
+    "description": "Mozart: Albrecht - Der Schauspieldirektor",
+    "location": "Theater Aachen",
+    "link": "https://www.concerti.de/termine/mozart-albrecht-der-schauspieldirektor-theater-aachen-241300/"
+    },
+    
+    {
+    "date": "APR 7 SUN 2024",
+    "hour": "19:30",
+    "description": "Bach, h-Moll Messe mit Illumination",
+    "location": "St. Laurentius, Warendorf",
+    "link": "https://www.warendorf.de/tourismus-kultur-sport/veranstaltungskalender/veranstaltungen/detail.html?tx_wafkalender_pi2%5Buid%5D=7588&cHash=294c8530d42b0e77e23b944792379caf"
+    },
+    
+    {
+    "date": "MAR 29 FRI 2024",
+    "hour": "17:00",
+    "description": "Luigi Boccherini - Stabat Mater (Soprano and string quintet) with Les Essences",
+    "location": "Duisburg - Salvatorkirche",
+    "link": "https://lesessences.net/agenda/"
+    },
+    
+    {
+    "date": "MAR 28 THU 2024",
+    "hour": "20:15",
+    "description": "Gilu Trio - Saudades of the Future",
+    "location": "Hove (zaal Da Capo)",
+    "link": "https://orfeo.be/zuidrand-klassiek/"
+    },
+    
+    {
+    "date": "MAR 24 SUN 2024",
+    "hour": "17:00",
+    "description": "Luigi Boccherini - Stabat Mater (Soprano and string quintet) with Les Essences",
+    "location": "Moers - St. Barbara",
+    "link": "https://lesessences.net/agenda/"
+    },
+    
+    {
+    "date": "MAR 9 SAT 2024",
+    "hour": "19:00",
+    "description": "Monteverdi's Orfeo with Leonardo García Alarcón - Choeur de Chambre de Namur for the inauguration of La Cité bleue in Geneva",
+    "location":"La Cité Bleue Genève",
+    "link": "https://lesessences.net/agenda/"
+    },
+    
+    {
+    "date": "FEB 16 THU 2024",
+    "hour": "19:00",
+    "description": "Abschlusskonzert Carlos Lopes - Codax",
+    "location": "Konzertsaal HfMT Köln",
+    "link": "Free Entrance"
+    },
+    
+    {
+    "date": "FEB 25 SUN 2024",
+    "hour": "11:00",
+    "description": "Gilu Trio - Saudades of the Future",
+    "location": "CC Guldenberg, Wevelgem",
+    "link": "https://www.ccwevelgem.be/ccwevelgem/agenda/e/apero-classico-gilu-trio/718e5f86-aa00-498e-874d-bf57e57f8d6f"
+    }
+
+    ]
+    }

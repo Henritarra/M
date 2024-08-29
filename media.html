@@ -11,26 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
+    <script defer src="script.js"></script>
     <title>Maria Portela Larisch</title>
 </head>
  
 <body>
-    <header>
-        <nav>
-            <h1 id="nome2">
+    <header class="mediapage">
+        <nav class="container--margin">
+            <h1 id="nome" class="white">
                 Maria Portela Larisch
             </h1>
-            <div id="buttons2" class="topnav">
+            <div id="buttons" class="nav-menu white">
                 <a href="index.html">Home</a>
                 <a href="biography.html">Biography</a>
                 <a href="media.html">Media</a>
                 <a href="contact.html">Contact</a>
                 <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-bars white"></i>
                   </a>
             </div>
-            <div id="colapse2">
+            <div id="collapse--menu" class="responsive white">
                 <a href="index.html">Home</a>
                 <a href="biography.html">Biography</a>
                 <a href="media.html">Media</a>
@@ -38,8 +38,7 @@
             </div>
         </nav>
         
-        <div class="Hero4">
-        </div>
+        
     </header>
 
     <div class="myconcerts">
@@ -73,10 +72,4 @@
         </div>
 
     </footer>
-    <script>
-        function toggleMenu() {
-  var x = document.getElementById("colapse2");
-  x.classList.toggle("responsive");
-}
-    </script>
 </body>

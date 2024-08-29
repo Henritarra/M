@@ -12,38 +12,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
+    <script defer src="script.js"></script>
     <title>Maria Portela Larisch</title>
 </head>
 
 <body>
-    <header>
-        <div id="dick"></div>
-        <nav>
-            <h1 id="nome">
-                Maria Portela Larisch
-            </h1>
+    <header class="index">
+        <div class="header--gradient">
             
-            <div id=buttons class="topnav">
-                <a href="index.html">Home</a>
-                <a href="biography.html">Biography</a>
-                <a href="media.html">Media</a>
-                <a href="contact.html">Contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-                    <i class="fa-solid fa-bars"></i>
-                  </a>
-            </div>
-            <div id="colapse">
-                <a href="index.html">Home</a>
-                <a href="biography.html">Biography</a>
-                <a href="media.html">Media</a>
-                <a href="contact.html">Contact</a>
-            </div> 
-        </nav>
-        
-        <div class="Hero">
-        <div class="Hero2">
-        </div>
+            <nav class="container--margin">
+                <h1 id="nome">
+                    Maria Portela Larisch
+                </h1>
+                
+                <div id="buttons" class="nav-menu">
+                    <a href="index.html">Home</a>
+                    <a href="biography.html">Biography</a>
+                    <a href="media.html">Media</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                        <i class="fa-solid fa-bars"></i></a>
+                    
+                </div>
+
+                <div id="collapse--menu" class="responsive">
+                    <div id="collapse--background"></div>
+                    <a href="index.html">Home</a>
+                    <a href="biography.html">Biography</a>
+                    <a href="media.html">Media</a>
+                    <a href="contact.html">Contact</a>
+                </div> 
+                
+                
+            </nav>
         </div>
     </header>
     <div id="Mega">
@@ -54,283 +55,49 @@
         <div class="myconcerts">
             <h2> Upcoming Concerts</h2>
         </div>
+            <div class="upcomingconcerts">
+                <div class="year24"><h2 id="year">2024</h2></div>
+                <div class="year25"><h2 id="year">2025</h2></div>
+                
+            </div>
+            
 
-        
-         <div class="concerts2">
-            <box class="ConcDate"><b>SEP 21 SAT 2024</b><p>16:00</p></box>
-            <box class="ConcInfo"><h5>Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)</h5><p>UFO - Frankenplatz, Düsseldorf</p></box>
-            <box class="ConcLink"><a href ="https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine" target="_blank">Info & Tickets</a></box>
-        </div>
-
-         <div class="concerts2">
-            <box class="ConcDate"><b>SEP 21 SAT 2024</b><p>19:30</p></box>
-            <box class="ConcInfo"><h5> Klima.Requiem with Nico Koehs, Ensemble for Future and Orchester des Wandels</h5><p>Konzertsaal der HfMT Köln</p></box>
-            <box class="ConcLink"><a href ="#" target="_blank">Info & Tickets</a></box>
-        </div>
-        
-        <div class="concerts2">
-            <box class="ConcDate"><b>SEP 22 SUN 2024</b><p>16:00</p></box>
-            <box class="ConcInfo"><h5>Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)</h5><p>UFO - Frankenplatz, Düsseldorf</p></box>
-            <box class="ConcLink"><a href ="https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine" target="_blank">Info & Tickets</a></box>
-        </div>
-         <div class="concerts2">
-            <box class="ConcDate"><b>SEP 23 MON 2024</b><p>11:00</p></box>
-            <box class="ConcInfo"><h5>Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)</h5><p>UFO - Frankenplatz, Düsseldorf</p></box>
-            <box class="ConcLink"><a href ="https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine" target="_blank">Info & Tickets</a></box>
-        </div>
-         <div class="concerts2">
-            <box class="ConcDate"><b>SEP 25 WED 2024</b><p>11:00</p></box>
-            <box class="ConcInfo"><h5>Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)</h5><p>UFO - Frankenplatz, Düsseldorf</p></box>
-            <box class="ConcLink"><a href ="https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine" target="_blank">Info & Tickets</a></box>
-        </div>
- <div class="concerts2">
-            <box class="ConcDate"><b>SEP 26 THU 2024</b><p>11:00</p></box>
-            <box class="ConcInfo"><h5>Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)</h5><p>UFO - Frankenplatz, Düsseldorf</p></box>
-            <box class="ConcLink"><a href ="https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>SEP 27 FRI 2024</b><p>11:00</p></box>
-            <box class="ConcInfo"><h5>Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)</h5><p>UFO - Frankenplatz, Düsseldorf</p></box>
-            <box class="ConcLink"><a href ="https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine" target="_blank">Info & Tickets</a></box>
-        </div>
-
-        <div class="concerts2">
-            <box class="ConcDate"><b>SEP 28 SAT 2024</b><p>19:00</p></box>
-            <box class="ConcInfo"><h5> Innocence (Kaija Sariaaho) with Chorwerk Ruhr</h5><p>Musiktheater im Revier</p></box>
-            <box class="ConcLink"><a href ="https://musiktheater-im-revier.de/de/performance/2024-25/innocence
-" target="_blank">Info & Tickets</a></box>
-        </div>
-
-        <div class="concerts2">
-            <box class="ConcDate"><b>OCT 4 FRI 2024</b><p>11:30</p></box>
-            <box class="ConcInfo"><h5> And then she said… Recital around female poets with Jou-an Chen and teenagers</h5><p>Kammermusiksaal HfMT Köln</p></box>
-            <box class="ConcLink"><a href ="#" target="_blank">Info & Tickets</a></box>
-        </div>
-        
-        <div class="concerts2">
-            <box class="ConcDate"><b>OCT 5 SAT 2024</b><p>19:00</p></box>
-            <box class="ConcInfo"><h5> Innocence (Kaija Sariaaho) with Chorwerk Ruhr</h5><p>Musiktheater im Revier</p></box>
-            <box class="ConcLink"><a href ="https://musiktheater-im-revier.de/de/performance/2024-25/innocence
-" target="_blank">Info & Tickets</a></box>
-        </div>
-
-        <div class="concerts2">
-            <box class="ConcDate"><b>OCT 11 FRI 2024</b><p>19:00</p></box>
-            <box class="ConcInfo"><h5> The Cold Trip (Bernhard Lang) with Cologne Guitar Quartet</h5><p>Soundlinks Festival - Köln</p></box>
-            <box class="ConcLink"><a href ="https://soundlinks.de/en/" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>OCT 18 FRI 2024</b><p>19:00</p></box>
-            <box class="ConcInfo"><h5> The Cold Trip (Bernhard Lang) with Cologne Guitar Quartet</h5><p>Festival Internacional de Guitarra de Santo Tirso - Portugal</p></box>
-            <box class="ConcLink"><a href ="https://figst.cm-stirso.pt/" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>OCT 23 WED 2024</b><p>19:30</p></box>
-            <box class="ConcInfo"><h5>Composing Voices</h5><p>KROHNE Messtechnik Veranstaltungssaal - Duisburg</p></box>
-            <box class="ConcLink"><a href ="https://www.theater-duisburg.de/spielplan/a-z/composing-voices/" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>OCT 27 SUN 2024</b><p>18:00</p></box>
-            <box class="ConcInfo"><h5> Innocence (Kaija Sariaaho) with Chorwerk Ruhr</h5><p>Musiktheater im Revier</p></box>
-            <box class="ConcLink"><a href ="https://musiktheater-im-revier.de/de/performance/2024-25/innocence
-" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>NOV 1 FRI 2024</b><p>18:00</p></box>
-            <box class="ConcInfo"><h5>Droben im Licht (Johannes Brahms, Peter Cornelius, Robert Schumann) with Chorwerk Ruhr and Bochumer Symphoniker (Soloist and choir)</h5><p>Anneliese Brost Musikforum Ruhr - Bochum</p></box>
-            <box class="ConcLink"><a href ="https://chorwerkruhr.de/projekt/droben-im-licht/" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>NOV 10 SUN 2024</b><p>18:00</p></box>
-            <box class="ConcInfo"><h5> Innocence (Kaija Sariaaho) with Chorwerk Ruhr</h5><p>Musiktheater im Revier</p></box>
-            <box class="ConcLink"><a href ="https://musiktheater-im-revier.de/de/performance/2024-25/innocence
-" target="_blank">Info & Tickets</a></box>
-        </div>
-         <div class="concerts2">
-            <box class="ConcDate"><b>NOV 16 SAT 2024</b><p>20:30</p></box>
-            <box class="ConcInfo"><h5>Hinos da Revolução with Cantus Portugueses</h5><p>Bürgerzentrum Ehrenfeld - Köln</p></box>
-            <box class="ConcLink"><a href ="https://cantusportugueses.com/" target="_blank">Info & Tickets</a></box>
-        </div>
-
-        <div class="concerts2">
-            <box class="ConcDate"><b>NOV 19 TUE 2024</b><p>20:00</p></box>
-            <box class="ConcInfo"><h5>Christmas program with Gilu, Musica et Poetica series</h5><p>Zilverzand - Belgium</p></box>
-            <box class="ConcLink"><a href ="https://www.musicaetpoetica.be/agenda" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>NOV 20 WED 2024</b><p>20:00</p></box>
-            <box class="ConcInfo"><h5>Christmas program with Gilu, Musica et Poetica series</h5><p>Voorkempen - Belgium</p></box>
-            <box class="ConcLink"><a href ="https://www.musicaetpoetica.be/agenda" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>NOV 21 THU 2024</b><p>20:00</p></box>
-            <box class="ConcInfo"><h5>Christmas program with Gilu, Musica et Poetica series</h5><p>'s Gravenkamer - Belgium</p></box>
-            <box class="ConcLink"><a href ="https://www.musicaetpoetica.be/agenda" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>NOV 22 FRI 2024</b><p>20:00</p></box>
-            <box class="ConcInfo"><h5>Christmas program with Gilu, Musica et Poetica series</h5><p>Gent - Belgium</p></box>
-            <box class="ConcLink"><a href ="https://www.musicaetpoetica.be/agenda" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>NOV 23 SAT 2024</b><p>20:00</p></box>
-            <box class="ConcInfo"><h5>Christmas program with Gilu, Musica et Poetica series</h5><p>Tervuren - Belgium</p></box>
-            <box class="ConcLink"><a href ="https://www.musicaetpoetica.be/agenda" target="_blank">Info & Tickets</a></box>
-        </div>
-
-        <div class="concerts2">
-            <box class="ConcDate"><b>NOV 28 THU 2024</b><p>15:00</p></box>
-            <box class="ConcInfo"><h5>Weihnachten in Lied und Wort, Herzmusik</h5><p>Theater Duisburg</p></box>
-            <box class="ConcLink"><a href ="https://www.theater-duisburg.de/spielplan/a-z/herzmusik/" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>DEC 1 SUN 2024</b><p>11:00</p></box>
-            <box class="ConcInfo"><h5>Weihnachten in Lied und Wort</h5><p>Foyer - Theater Duisburg</p></box>
-            <box class="ConcLink"><a href ="https://www.theater-duisburg.de/spielplan/kalender/weihnachten-in-lied-und-wort-24/1476/" target="_blank">Info & Tickets</a></box>
-        </div>
-        
-        <div class="concerts2">
-            <box class="ConcDate"><b>DEC 1 SUN 2024</b><p>18:00</p></box>
-            <box class="ConcInfo"><h5> Innocence (Kaija Sariaaho) with Chorwerk Ruhr</h5><p>Musiktheater im Revier</p></box>
-            <box class="ConcLink"><a href ="https://musiktheater-im-revier.de/de/performance/2024-25/innocence" target="_blank">Info & Tickets</a></box>
-        </div>
-        
-        <div class="concerts2">
-            <box class="ConcDate"><b>DEC 2 MON 2024</b><p>20:00</p></box>
-            <box class="ConcInfo"><h5>Christmas program with Gilu, Musica et Poetica series</h5><p>Brasschaat - Belgium</p></box>
-            <box class="ConcLink"><a href ="https://www.musicaetpoetica.be/agenda" target="_blank">Info & Tickets</a></box>
-        </div>
-
-        <div class="concerts2">
-            <box class="ConcDate"><b>DEC 15 SUN 2024</b><p>11:00</p></box>
-            <box class="ConcInfo"><h5>Weihnachten in Lied und Wort</h5><p>Foyer - Theater Duisburg</p></box>
-            <box class="ConcLink"><a href ="https://www.theater-duisburg.de/spielplan/kalender/weihnachten-in-lied-und-wort-24/1476/" target="_blank">Info & Tickets</a></box>
-        </div>
-        
-        <div class="concerts2">
-            <box class="ConcDate"><b>DEC 17 TUE 2024</b><p>20:00</p></box>
-            <box class="ConcInfo"><h5>Christmas program with Gilu, Musica et Poetica series</h5><p>Antwerpen - Belgium</p></box>
-            <box class="ConcLink"><a href ="https://www.musicaetpoetica.be/agenda" target="_blank">Info & Tickets</a></box>
-        </div>
-
-        <div class="concerts2">
-            <box class="ConcDate"><b>DEC 18 WED 2024</b><p>20:00</p></box>
-            <box class="ConcInfo"><h5>Christmas program with Gilu, Sereni</h5><p>Antwerpen - Belgium</p></box>
-            <box class="ConcLink"><a href ="https://www.sereni.be/artikel/intiem-huiskamerconcert-sereni-antwerpen-trio-gilu-zang-harp-viool-18-december/" target="_blank">Info & Tickets</a></box>
-        </div>
-        
-        <div class="concerts2">
-            <box class="ConcDate"><b>DEC 19 THU 2024</b><p>20:00</p></box>
-            <box class="ConcInfo"><h5>Christmas program with Gilu, Musica et Poetica series</h5><p>Keerbergen - Belgium</p></box>
-            <box class="ConcLink"><a href ="https://www.musicaetpoetica.be/agenda" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>DEC 20 FRI 2024</b><p>20:00</p></box>
-            <box class="ConcInfo"><h5>Christmas program with Gilu, Musica et Poetica series</h5><p>Damme - Belgium</p></box>
-            <box class="ConcLink"><a href ="https://www.musicaetpoetica.be/agenda" target="_blank">Info & Tickets</a></box>
-        </div>
-        
-        <div class="concerts2">
-            <box class="ConcDate"><b>DEC 29 SUN 2024</b><p>18:00</p></box>
-            <box class="ConcInfo"><h5> Innocence (Kaija Sariaaho) with Chorwerk Ruhr</h5><p>Musiktheater im Revier</p></box>
-            <box class="ConcLink"><a href ="https://musiktheater-im-revier.de/de/performance/2024-25/innocence
-" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>JAN 11 SAT 2025</b><p>19:00</p></box>
-            <box class="ConcInfo"><h5> Innocence (Kaija Sariaaho) with Chorwerk Ruhr</h5><p>Musiktheater im Revier</p></box>
-            <box class="ConcLink"><a href ="https://musiktheater-im-revier.de/de/performance/2024-25/innocence
-" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>FEB 16 SUN 2025</b><p>18:00</p></box>
-            <box class="ConcInfo"><h5> Innocence (Kaija Sariaaho) with Chorwerk Ruhr</h5><p>Musiktheater im Revier</p></box>
-            <box class="ConcLink"><a href ="https://musiktheater-im-revier.de/de/performance/2024-25/innocence
-" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>MAR 20 THU 2025</b><p>19:30</p></box>
-            <box class="ConcInfo"><h5> Innocence (Kaija Sariaaho) with Chorwerk Ruhr</h5><p>Musiktheater im Revier</p></box>
-            <box class="ConcLink"><a href ="https://musiktheater-im-revier.de/de/performance/2024-25/innocence
-" target="_blank">Info & Tickets</a></box>
-        </div>
-        
-        
-        <div class="myconcerts">
+        <div class="myconcerts mypreviousconcerts">
             <h2> Previous Concerts</h2>
+            <img class="btn--previousconcerts" src="../Fotos/caret-circle-down-bold.svg" onclick="togglePreviousConcerts()"/>
         </div>
-        
-        <div class="concerts2">
-            <box class="ConcDate"><b>JUN 8, 18, 23, 25,26, 30 2024</br>JUL 2, 5 </b><p>19:30, 18:00, 11:00</p></box>
-            <box class="ConcInfo"><h5>Der Schauspieldirektor (Mozart/Albrecht)</h5><p>Theater Aachen</p></box>
-            <box class="ConcLink"><a href ="https://www.concerti.de/termine/mozart-albrecht-der-schauspieldirektor-theater-aachen-241300/" target="_blank">Info & Tickets</a></box>
-        </div>
-        
-        <div class="concerts2">
-            <box class="ConcDate"><b>APR 16, 17, 18, 22, 23, 24, 25 2024</b><p>11:00</p></box>
-            <box class="ConcInfo"><h5>Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)</h5><p>UFO - Dellplatz, Duisburg</p></box>
-            <box class="ConcLink"><a href ="https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>APR 13, 14, 20, 28 2024</b><p>16:00</p></box>
-            <box class="ConcInfo"><h5>Keine Angst. Sagt die Angst (Anna Korsun & Mirjam Schmuck)</h5><p>UFO - Dellplatz, Duisburg</p></box>
-            <box class="ConcLink"><a href ="https://www.operamrhein.de/spielplan/produktionen/keine-angst-sagte-die-angst/?a=termine" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>APR 7 SUN 2024</b><p>19:30</p></box>
-            <box class="ConcInfo"><h5>Bach, h-Moll Messe mit Illumination</h5><p>St. Laurentius, Warendorf</p></box>
-            <box class="ConcLink"><a href ="https://www.warendorf.de/tourismus-kultur-sport/veranstaltungskalender/veranstaltungen/detail.html?tx_wafkalender_pi2%5Buid%5D=7588&cHash=294c8530d42b0e77e23b944792379caf" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>MAR 29 FRI 2024</b><p>17:00</p></box>
-            <box class="ConcInfo"><h5>Luigi Boccherini - Stabat Mater (Soprano and string quintet) with Les Essences</h5><p>Duisburg - Salvatorkirche</p></box>
-            <box class="ConcLink"><a href ="https://lesessences.net/agenda/" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>MAR 28 THU 2024</b><p>20:15</p></box>
-            <box class="ConcInfo"><h5>Gilu Trio - Saudades of the Future</h5><p>Hove (zaal Da Capo)</p></box>
-            <box class="ConcLink"><a href ="https://orfeo.be/zuidrand-klassiek/" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>MAR 24 SUN 2024</b><p>17:00</p></box>
-            <box class="ConcInfo"><h5>Luigi Boccherini - Stabat Mater (Soprano and string quintet) with Les Essences</h5><p>Moers - St. Barbara</p></box>
-            <box class="ConcLink"><a href ="https://lesessences.net/agenda/" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>MAR 9 SAT 2024</b><p>19:00</p></box>
-            <box class="ConcInfo"><h5>Monteverdi's Orfeo with Leonardo García Alarcón </br> Choeur de Chambre de Namur for the inauguration of La Cité bleue in Geneva</h5><p>La Cité Bleue Genève</p></box>
-            <box class="ConcLink"><a href ="https://lesessences.net/agenda/" target="_blank">Info & Tickets</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>FEB 16 THU 2024</b><p>19:00</p></box>
-            <box class="ConcInfo"><h5>Abschlusskonzert Carlos Lopes - Codax</h5><p>Konzertsaal HfMT Köln</p></box>
-            <box class="ConcLink"><a>Free Entrance</a></box>
-        </div>
-        <div class="concerts2">
-            <box class="ConcDate"><b>FEB 25 SUN 2024</b><p>11:00</p></box>
-            <box class="ConcInfo"><h5>Gilu Trio - Saudades of the Future</h5><p>CC Guldenberg, Wevelgem</p></box>
-            <box class="ConcLink"><a href ="https://www.ccwevelgem.be/ccwevelgem/agenda/e/apero-classico-gilu-trio/718e5f86-aa00-498e-874d-bf57e57f8d6f" target="_blank">Info & Tickets</a></box>
-        </div>
-    </div>
-    
-
+            <div class="pastconcerts">
+                <!-- <div class="pastyear24"><h2 id="year">2024</h2></div>
+                <div class="olderpastyears"><h2 id="year">2023-</h2></div> -->
+            </div>
+                
+            <footer class="afterpreviousconcerts">
+                <div>
+                    <p>Photos by Henrique Almeida, Anna Tena, Janet Sinica, Katja Illner and Damian Lovegrove</p>
+                    <p>Copyright © 2024 Maria Portela Larisch</p>
+                    <p>Impressum</p>
+                </div>
+            </footer>
     <script>
-    
-    function toggleMenu() {
-  var x = document.getElementById("colapse");
-  x.classList.toggle("responsive");
-  var z = document.getElementById("dick");
-  z.classList.toggle("pink");
+function togglePreviousConcerts () {
+    const containerPastConcerts = document.querySelector(".pastconcerts");
+    const btn = document.querySelector(".btn--previousconcerts");
+    if (btn.src.includes("caret-circle-down-bold.svg")) {
+        containerPastConcerts.style.display = "block";
+        setTimeout(function () {
+            containerPastConcerts.classList.add("showconcerts");
+        }, 10);
+        btn.src = "../Fotos/caret-circle-up-bold.svg";
+    } else if (btn.src.includes("caret-circle-up-bold.svg")) {
+        containerPastConcerts.classList.remove("showconcerts");
+        containerPastConcerts.style.display = "none";
+        btn.src = "../Fotos/caret-circle-down-bold.svg";
+    }
 }
     </script>
-    <footer>
-        <div>
-            <p>Photos by Henrique Almeida, Anna Tena, Janet Sinica, Katja Illner and Damian Lovegrove</p>
-            <p>Copyright © 2024 Maria Portela Larisch</p>
-            <p>Impressum</p>
-        </div>
+    
 
-    </footer>
+    
 </body>
 
 </html>

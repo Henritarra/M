@@ -15,7 +15,7 @@
     "hour": "19:30",
     "description": "Klima.Requiem with Nico Koehs, Ensemble for Future and Orchester des Wandels",
     "location": "Konzertsaal der HfMT Köln",
-    "entrad alivre": true
+    "entrada livre": true
     },
     
     {
@@ -209,6 +209,38 @@
     "location": "Brasschaat - Belgium",
     "link": "https://www.musicaetpoetica.be/agenda"
     },
+
+    {
+    "date": "DEC 6 FRI 2024",
+    "hour": "20:00",
+    "description": "Chorwerk Ruhr "This little Child"",
+    "location": "Christuskirche, Bochum",
+    "link": "https://chorwerkruhr.de/projekt/this-little-child/"
+    },
+
+    {
+    "date": "DEC 7 SAT 2024",
+    "hour": "17:00",
+    "description": "Chorwerk Ruhr "This little Child"",
+    "location": "Salvatorkirche, Duisburg",
+    "link": "https://chorwerkruhr.de/projekt/this-little-child/"
+    },
+
+    {
+    "date": "DEC 8 SUN 2024",
+    "hour": "17:00",
+    "description": "Chorwerk Ruhr "This little Child"",
+    "location": "Stadthalle, Betzdorf",
+    "link": "https://chorwerkruhr.de/projekt/this-little-child/"
+    },
+
+    {
+    "date": "DEC 14 SAT 2024",
+    "hour": "20:15",
+    "description": ChorwerkRuhr "Adventskonzert der Landesregierung",
+    "location": "St. Gudula Rhede",
+    "link": "https://chorwerkruhr.de/projekt/adventskonzert-der-landesregierung/"
+    }
     
     {
     "date": "DEC 15 SUN 2024",

@@ -10,20 +10,6 @@ const pastyear24 = document.querySelector(".pastyear24");
 const olderpastyears = document.querySelector(".olderpastyears");
 
 
-// fetch("Concertostexto.txt").then(res =>{
-//     if (!res.ok) {
-//         throw new Error("Network Problem 😢" + res.statusText);
-//     }
-//     return res.text();
-// }).then(data => {
-//     // console.log(data);
-//     const concerts = data;
-//     readJSONToPage(concerts);
-//     // readJSONToPage(concerts);    
-// }).catch(error => {
-//     console.error("Fetch Operation Not Working 🦇", error);
-// });
-
 fetch("concerts.json").then(res =>{
     if (!res.ok) {
         throw new Error("Network Problem 😢" + res.statusText);
@@ -31,13 +17,28 @@ fetch("concerts.json").then(res =>{
     return res.json();
 }).then(data => {
     const concerts = data.concerts;
+    createNewYearHtml(concerts);
     readJSONToPage(concerts);    
 }).catch(error => {
     console.error("Fetch Operation Not Working 🦇", error);
 });
 
 
-
+const createNewYearHtml = function(concerts) {
+    const infoYear = concerts.map(function (x) {
+        return x.date.slice(-4);
+        });
+    // console.log(infoYear)
+    const infoYearReal = [...new Set(infoYear.sort((a, b) => a - b))];
+    // console.log(infoYearReal);
+    infoYearReal.forEach( function (ano){
+        // console.log(ano)
+        if (ano >= today.getFullYear()) {
+          const html = `<div class="year${ano}"><h2 id="year">${ano}</h2></div>`
+          upcomingConcerts.insertAdjacentHTML("beforeend", html)
+        }
+    })
+}
 
 const readJSONToPage = function(concerts) {
     // console.log(concerts);
@@ -88,7 +89,10 @@ const readJSONToPage = function(concerts) {
         if (dateOfEl >= today)
         {
             // if (dateOfEl)
-        dateOfEl.getFullYear() === 2024? year24.insertAdjacentHTML("beforeend", html) : year25.insertAdjacentHTML("beforeend", html)
+        const selector = `.year${dateOfEl.getFullYear()}`
+        document.querySelector(selector).insertAdjacentHTML("beforeend", html);
+
+        // dateOfEl.getFullYear() === 2024? year24.insertAdjacentHTML("beforeend", html) : year25.insertAdjacentHTML("beforeend", html)
         }
         });
 

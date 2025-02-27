@@ -104,7 +104,7 @@ footer p {
 /*___________________________________________________Index___________________________________________*/
 
 header.index {
-	background-image: url("Fotos/IMG_1477small.jpg");
+	background-image: url("Fotos/Main1500x1000.jpg");
 }
 
 .header--gradient {
@@ -198,7 +198,7 @@ header.index {
 
 /*___________________________________________________BIOPAGE___________________________________________*/
 header.biopage {
-	background-image: url("Fotos/IMG_1677small.jpg");
+	background-image: url("Fotos/Bio2000x1333.jpg");
 	background-position: 35% top;
 }
 
@@ -220,7 +220,7 @@ header.biopage {
 
 /*___________________________________________________MEDIAPAGE___________________________________________*/
 header.mediapage{
-	background-image: url("Fotos/JS_03755@JanetSinicasmall.jpg");
+	background-image: url("Fotos/Media2000x1333.jpg");
 	background-position: 40% top;
 }
 
@@ -239,6 +239,150 @@ header.mediapage{
 #collapse--menu.white a:hover {
 	color:rgba(39, 116, 116, 0.6);
 }
+
+/* ^SLIDER! */
+
+.slider {
+	position: relative;
+	display: block;
+	overflow:hidden;
+	border-radius: 2px;
+	height: 635px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+.slider .slide-text {
+	overflow: visible;
+}
+
+.slide {
+	opacity: 0;
+}
+
+.picture-slide {
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 15px;
+	transform: translate(-50%, 0%);
+	max-height: 570px;
+	/* max-width: 100%; */
+}
+
+.slide[data-active] {
+	opacity: 1;
+}
+
+.slide > p {
+	color: rgb(0, 0, 0);
+	position: absolute;
+	display: block;
+	right: auto;
+	text-align: center;
+	top: 590px;
+	height: 100px;
+	width: 100%;
+}
+
+.carousel-button{
+	position: absolute;
+	z-index: 2;
+	background: none;
+	border: none;
+	font-size: 3rem;
+	top: 50%;
+	transform: translateY(-50%);
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 20px;
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+	color: rgb(94, 94, 94);
+}
+
+
+
+.carousel-button.next {
+	right: 0;
+}
+
+.accordeon {
+	display: flex;
+	padding: 20px 0px;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0px;
+}
+
+.accordeon-div {
+	width: 300px;
+	padding: 0px 30px 30px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.accordeon-div > h5 {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.image-div {
+	max-width: 500px;
+	max-height: 500px;
+	display: block;
+	position: relative;
+	padding-top: 60px;
+}
+
+.accordeon-photo {
+	
+	box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.5);
+	position: absolute;
+	max-width: 200px;
+	max-height: 133px;
+	right: 60px;
+	border-radius: 4px;
+	/* box-shadow: 1px 20px; */
+	transition: all 0.15s ease-in-out;
+}
+
+.accordeon:has(.accordeon-photo:hover) img:not(:hover) {
+	filter: brightness(50%);
+}
+
+/* Que é que faz isto?! */
+/* .image-div:has(.accordeon-photo:hover) img:hover:nth-child(n + )  {	
+transform: translate(20px, 20px);
+} */
+
+/* Imagens que vêm depois da imagem hovered */
+.image-div:hover img:hover ~ img {
+	right: 0px;
+}
+
+/* Îmagem hovered e imagens que vêm antes da imagem hovered */
+.image-div img:nth-child(-n+999):has(~ img:hover) {
+	right: 90px;
+	/* border-radius: 50%; */
+}
+
+.accordeon-photo:hover {
+	max-width: 270px;
+	max-height: 223px;
+	z-index: 999 !important;
+	cursor: pointer;
+}
+
+.accordeon-photo:not(:first-child):hover {
+	right: 20px;
+	/* right: 120px; */
+}
+
+
+/* Outras cenas */
 
 .media1 {
 	display: flex;
@@ -282,7 +426,7 @@ header.mediapage{
 /*___________________________________________________CONTACTPAGE___________________________________________*/
 
 header.contactpage {
-	background-image: url("Fotos/IMG_1606small.jpg");
+	background-image: url("Fotos/Contact2000x1333.jpg");
 	background-position: 60% top;
 }
 

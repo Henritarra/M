@@ -1,0 +1,162 @@
+[
+    {
+        "photos": [ 
+            {
+                "name": "gorgon-1",
+                "srcSmall": "Fotos/Gorgon/Small/gorgon-1",
+                "srcGallery": "Fotos/Gorgon/Big/gorgon-1"
+            },
+            {
+                "name": "gorgon-2",
+                "srcSmall": "Fotos/Gorgon/Small/gorgon-2",
+                "srcGallery": "Fotos/Gorgon/Big/gorgon-2"
+            },
+            {
+                "name": "gorgon-3",
+                "srcSmall": "Fotos/Gorgon/Small/gorgon-3",
+                "srcGallery": "Fotos/Gorgon/Big/gorgon-3"
+            },
+            {
+                "name": "gorgon-4",
+                "srcSmall": "Fotos/Gorgon/Small/gorgon-4",
+                "srcGallery": "Fotos/Gorgon/Big/gorgon-4"
+            },
+            {
+                "name": "gorgon-5",
+                "srcSmall": "Fotos/Gorgon/Small/gorgon-5",
+                "srcGallery": "Fotos/Gorgon/Big/gorgon-5"
+            },
+            {
+                "name": "gorgon-6",
+                "srcSmall": "Fotos/Gorgon/Small/gorgon-6",
+                "srcGallery": "Fotos/Gorgon/Big/gorgon-6"
+            },
+            {
+                "name": "gorgon-7",
+                "srcSmall": "Fotos/Gorgon/Small/gorgon-7",
+                "srcGallery": "Fotos/Gorgon/Big/gorgon-7"
+            }
+    ],
+        "description": "Gorgon (Hans) - Simnett, HAU2 Berlin Art Week"
+    },
+    {
+        "photos": [ 
+            {
+                "name": "orphee-1",
+                "srcSmall": "Fotos/Orphee/Small/orphee-1",
+                "srcGallery": "Fotos/Orphee/Big/orphee-1"
+            },
+            {
+                "name": "orphee-2",
+                "srcSmall": "Fotos/Orphee/Small/orphee-2",
+                "srcGallery": "Fotos/Orphee/Big/orphee-2"
+            },
+            {
+                "name": "orphee-3",
+                "srcSmall": "Fotos/Orphee/Small/orphee-3",
+                "srcGallery": "Fotos/Orphee/Big/orphee-3"
+            },
+            {
+                "name": "orphee-4",
+                "srcSmall": "Fotos/Orphee/Small/orphee-4",
+                "srcGallery": "Fotos/Orphee/Big/orphee-4"
+            },
+            {
+                "name": "orphee-5",
+                "srcSmall": "Fotos/Orphee/Small/orphee-5",
+                "srcGallery": "Fotos/Orphee/Big/orphee-5"
+            },
+            {
+                "name": "orphee-6",
+                "srcSmall": "Fotos/Orphee/Small/orphee-6",
+                "srcGallery": "Fotos/Orphee/Big/orphee-6"
+            }
+        ],
+        "description": "Orphée aux Enfers (Minerve) - Offenbach, Theater Aachen"
+    },
+    {
+        "photos": [ 
+            {
+                "name": "direktor-1",
+                "srcSmall": "Fotos/Schauspieldirektor/Small/direktor-1",
+                "srcGallery": "Fotos/Schauspieldirektor/Big/direktor-1"
+            },
+            {
+                "name": "direktor-2",
+                "srcSmall": "Fotos/Schauspieldirektor/Small/direktor-2",
+                "srcGallery": "Fotos/Schauspieldirektor/Big/direktor-2"
+            },
+            {
+                "name": "direktor-3",
+                "srcSmall": "Fotos/Schauspieldirektor/Small/direktor-3",
+                "srcGallery": "Fotos/Schauspieldirektor/Big/direktor-3"
+            },
+            {
+                "name": "direktor-4",
+                "srcSmall": "Fotos/Schauspieldirektor/Small/direktor-4",
+                "srcGallery": "Fotos/Schauspieldirektor/Big/direktor-4"
+            },
+            {
+                "name": "direktor-5",
+                "srcSmall": "Fotos/Schauspieldirektor/Small/direktor-5",
+                "srcGallery": "Fotos/Schauspieldirektor/Big/direktor-5"
+            }
+        ],
+        "description": "Der Schauspieldirektor (Frau Silberklang) - Mozart/Albrecht, Theater Aachen"
+    },
+    {
+        "photos": [ 
+            {
+                "name": "tito-1",
+                "srcSmall": "Fotos/Tito/Small/tito-1",
+                "srcGallery": "Fotos/Tito/Big/tito-1"
+            },
+            {
+                "name": "tito-2",
+                "srcSmall": "Fotos/Tito/Small/tito-2",
+                "srcGallery": "Fotos/Tito/Big/tito-2"
+            },
+            {
+                "name": "tito-3",
+                "srcSmall": "Fotos/Tito/Small/tito-3",
+                "srcGallery": "Fotos/Tito/Big/tito-3"
+            },
+            {
+                "name": "tito-4",
+                "srcSmall": "Fotos/Tito/Small/tito-4",
+                "srcGallery": "Fotos/Tito/Big/tito-4"
+            }
+        ],
+        "description": "Tito (Marzia) - Cesti, Urania Theater"
+    },
+    {
+        "photos": [ 
+            {
+                "name": "ufo-1",
+                "srcSmall": "Fotos/UFO/Small/ufo-1",
+                "srcGallery": "Fotos/UFO/Big/ufo-1"
+            },
+            {
+                "name": "ufo-2",
+                "srcSmall": "Fotos/UFO/Small/ufo-2",
+                "srcGallery": "Fotos/UFO/Big/ufo-2"
+            }
+        ],
+        "description": "Keine Angst. sagte die Angst (die Angst) - Korsun, UFO der Deutsche Oper am Rhein"
+    },
+    {
+        "photos": [ 
+            {
+                "name": "other-1",
+                "srcSmall": "Fotos/Other/Small/other-1",
+                "srcGallery": "Fotos/Other/Big/other-1"
+            },
+            {
+                "name": "other-2",
+                "srcSmall": "Fotos/Other/Small/other-2",
+                "srcGallery": "Fotos/Other/Big/other-2"
+            }            
+        ],
+        "description": "Other Photos"
+    }
+]

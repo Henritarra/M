@@ -202,8 +202,17 @@ header.biopage {
 	background-position: 35% top;
 }
 
+.bio-div {
+	font-size: 25px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 2px solid rgb(135, 166, 216);
+	border-bottom: 2px solid rgb(135, 166, 216);
+}
+
 .bio {
-	margin: 70px 22% 60px 22%;
+	margin: 30px max(30px, 30%);
 }
 
 .bandsdiv {
@@ -296,6 +305,7 @@ header.mediapage{
 	color: rgb(0, 0, 0);
 	cursor: pointer;
 	padding: 20px;
+	/* font-weight: bold; */
 }
 
 .carousel-button:hover,
@@ -303,8 +313,11 @@ header.mediapage{
 	color: rgb(94, 94, 94);
 }
 
-
-
+.carousel-button.prev {
+	transform: rotate(180deg);
+	transform-origin: 50% 27.5%;
+	
+}
 .carousel-button.next {
 	right: 0;
 }
@@ -544,7 +557,7 @@ input, textarea {
 
 	.bio {
 		margin: 70px 16% 60px 16%;
-		font-size: 16px;
+		font-size: 19px;
 	}
 
 	.myconcerts h2 {

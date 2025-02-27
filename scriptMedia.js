@@ -69,12 +69,8 @@ document.querySelector(".accordeon").addEventListener("click", (event) => {
 
 function selectPicture(picsName) {
     const slides = document.querySelector("[data-slides]");
-    console.log(slides);
     const activeSlide = slides.querySelector("[data-active]");
     const clickedSlide = slides.querySelector(`[data-name="${picsName}"]`);
-    console.log(typeof picsName);
-    console.log(clickedSlide);
-    console.log(activeSlide);
     delete activeSlide.dataset.active;
     clickedSlide.dataset.active = true;
     clearInterval(intervalID);

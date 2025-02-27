@@ -594,6 +594,58 @@ input, textarea {
 
 
 
+@media screen and (max-width: 980px) {
 
+.slider {
+	height: 500px;
+}
+.picture-slide {
+	max-height: 420px;
+}
+.slide > p {
+	top: 450px;
+}
+}
 
+@media screen and (max-width: 715px) {
+	.slider {
+		height: 400px;
+	}
+	.picture-slide {
+		max-height: 330px;
+	}
+	.slide > p {
+		top: 350px;
+	}
+}
 
+@media screen and (max-width: 600px) {
+	.slider {
+		height: 300px;
+	}
+	.picture-slide {
+		max-height: 230px;
+	}
+	.slide > p {
+		top: 250px;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+.carousel-button{
+	font-size: 2.5rem;
+	color: rgb(168, 168, 168);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+	color: rgb(207, 207, 207);
+	
+}
+
+.slide > p {
+	font-size: 1rem;
+}
+
+}

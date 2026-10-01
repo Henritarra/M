@@ -197,7 +197,7 @@ header.index {
 
 /*___________________________________________________BIOPAGE___________________________________________*/
 header.biopage {
-	background-image: url("Fotos/Bio2000x1333.jpg");
+	background-image: url("Fotos/FotoBiografia2000x1333.jpg");
 	background-position: 35% top;
 }
 
@@ -438,7 +438,7 @@ transform: translate(20px, 20px);
 /*___________________________________________________CONTACTPAGE___________________________________________*/
 
 header.contactpage {
-	background-image: url("Fotos/Contact2000x1333.jpg");
+	background-image: url("Fotos/ExpFotoContact.jpg");
 	background-position: 60% top;
 }
 

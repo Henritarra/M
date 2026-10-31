@@ -3,6 +3,13 @@
 	margin: 0;
 }
 
+:root {
+	--teal: #277474;
+	--teal-dark: #1f5d5d;
+	--teal-wash: rgba(39, 116, 116, 0.18);
+	--shadow-soft: rgba(35, 48, 45, 0.1);
+}
+
 body {
     font-family: "Philosopher", 'Montserrat', 'Roboto', sans-serif;
     margin: 0;
@@ -35,11 +42,12 @@ nav {
 	font-size: 20px;
 	text-decoration: none;
 	margin-right: 30px;
+	transition: color 80ms ease;
 }
 
 .nav-menu a:hover,
 .nav-menu :active {
-	color:rgba(39, 116, 116, 0.6);
+	color: var(--teal);
 }
 
 .icon {
@@ -89,6 +97,12 @@ nav {
 	font-size: 19px;
 	text-decoration: none;
 	padding: 5px 0px;
+	transition: color 80ms ease;
+}
+
+#collapse--menu a:hover,
+#collapse--menu a:focus-visible {
+	color: var(--teal);
 }
 
 footer {
@@ -127,7 +141,7 @@ header.index {
 #year {
 	font-size: 32px;
 	font-weight: bold;
-	color: rgba(7, 112, 232, 0.82);
+	color: var(--teal);
 	margin: 40px 0 0 40px;
 }
 .myconcerts {
@@ -168,8 +182,16 @@ header.index {
 	align-items: center;
 	justify-content: space-between;
 	padding: 20px;
-	background-color: rgba(39, 116, 116, 0.4);
+	background-color: var(--teal-wash);
+	box-shadow: 0 2px 8px var(--shadow-soft);
+	transition: background-color 180ms ease, box-shadow 180ms ease;
 	margin: 20px 0 20px 0;
+}
+
+.concerts2:has(.ConcLink a:hover),
+.concerts2:has(.ConcLink a:focus-visible) {
+	background-color: rgba(39, 116, 116, 0.24);
+	box-shadow: 0 4px 12px rgba(35, 48, 45, 0.14);
 }
 
 .concerts2 h5 {
@@ -191,9 +213,13 @@ header.index {
 	text-align: center;
 	width: 20%;
 }
-.ConcLink a:hover {
-	color: rgba(124, 62, 186, 0.678)
+.ConcLink a:hover,
+.ConcLink a:focus-visible {
+	color: var(--teal-dark);
+	text-decoration: underline;
+	text-underline-offset: 3px;
 }
+.ConcLink a { transition: color 180ms ease; }
 .ConcDate p {
 	margin-top: 5px;
 }
@@ -209,8 +235,8 @@ header.biopage {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border-top: 2px solid rgb(135, 166, 216);
-	border-bottom: 2px solid rgb(135, 166, 216);
+	border-top: 2px solid rgba(39, 116, 116, 0.4);
+	border-bottom: 2px solid rgba(39, 116, 116, 0.4);
 }
 
 .bio {
@@ -226,8 +252,16 @@ header.biopage {
 	padding: 10px;
 	color:black;
 	text-decoration: none;
-	background-color: rgba(39, 116, 116, 0.2);
+	background-color: var(--teal-wash);
+	box-shadow: 0 1px 5px rgba(35, 48, 45, 0.08);
+	transition: background-color 180ms ease, box-shadow 180ms ease;
   }
+
+.bands:hover,
+.bands:focus-visible {
+	background-color: rgba(39, 116, 116, 0.28);
+	box-shadow: 0 3px 9px rgba(35, 48, 45, 0.14);
+}
 
 /*___________________________________________________MEDIAPAGE___________________________________________*/
 header.mediapage{
@@ -243,12 +277,17 @@ header.mediapage{
 	color: white;
 }
 
+#buttons.white a:hover,
+#buttons.white a:focus-visible {
+	color: #e5d3b5;
+}
+
 #collapse--menu.white a {
 	color: white;
 }
 
 #collapse--menu.white a:hover {
-	color:rgba(39, 116, 116, 0.6);
+	color: #e5d3b5;
 }
 
 /* ^SLIDER! */
@@ -311,8 +350,8 @@ header.mediapage{
 }
 
 .carousel-button:hover,
-.carousel-button:focus {
-	color: rgb(94, 94, 94);
+.carousel-button:focus-visible {
+	color: var(--teal);
 }
 
 .carousel-button.prev {
@@ -354,18 +393,19 @@ header.mediapage{
 
 .accordeon-photo {
 	
-	box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 3px 8px rgba(25, 25, 25, 0.24), 0 0 0 1px rgba(255, 255, 255, 0.55);
 	position: absolute;
 	max-width: 200px;
 	max-height: 133px;
 	right: 60px;
 	border-radius: 4px;
 	/* box-shadow: 1px 20px; */
-	transition: all 0.15s ease-in-out;
+	transition: max-width 180ms ease, max-height 180ms ease, right 180ms ease,
+		filter 180ms ease, box-shadow 180ms ease;
 }
 
 .accordeon:has(.accordeon-photo:hover) img:not(:hover) {
-	filter: brightness(50%);
+	filter: brightness(60%);
 }
 
 /* Que é que faz isto?! */
@@ -389,11 +429,18 @@ transform: translate(20px, 20px);
 	max-height: 223px;
 	z-index: 999 !important;
 	cursor: pointer;
+	box-shadow: 0 10px 22px rgba(20, 20, 20, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.8);
 }
 
 .accordeon-photo:not(:first-child):hover {
 	right: 20px;
 	/* right: 120px; */
+}
+
+@media (hover: none) {
+	.image-div:has(.accordeon-photo:hover) .accordeon-photo:not(:hover) {
+		filter: none;
+	}
 }
 
 
@@ -488,11 +535,13 @@ input, textarea {
 	border-radius: 4px;
 	cursor: pointer;
 	text-align: center;
+	transition: background-color 180ms ease, box-shadow 180ms ease;
 
 }
 
 .submit:hover {
 	background-color: rgba(39, 116, 116, 0.6);
+	box-shadow: 0 3px 9px rgba(35, 48, 45, 0.18);
 }
 
 /*______________________________________________________MEDIA QUERIES_________________________________________*/
@@ -654,8 +703,8 @@ input, textarea {
 }
 
 .carousel-button:hover,
-.carousel-button:focus {
-	color: rgb(207, 207, 207);
+.carousel-button:focus-visible {
+	color: var(--teal);
 	
 }
 

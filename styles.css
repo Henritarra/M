@@ -114,8 +114,32 @@ footer p {
 	margin: 10px 0px;
 }
 
-.follow a img {
-	max-width: 25px;
+.follow .instagram-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+	color: #373630;
+	text-decoration: none;
+	transition: color 120ms ease;
+}
+
+.follow .instagram-link img {
+	width: 30px;
+	height: 30px;
+	opacity: 0.82;
+	transition: opacity 120ms ease;
+}
+
+.follow .instagram-link:hover,
+.follow .instagram-link:focus-visible {
+	color: var(--teal-dark);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+.follow .instagram-link:hover img,
+.follow .instagram-link:focus-visible img {
+	opacity: 1;
 }
 /*___________________________________________________Index___________________________________________*/
 

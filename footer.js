@@ -3,7 +3,7 @@ const sharedFooterMarkup = `
         <div class="follow">
             <p>Follow me on:
                 <a class="instagram-link" href="https://www.instagram.com/maria.portela.larisch/">
-                    <img src="instagram-brands-solid-full.svg" alt="Instagram">
+                    <img src="instagram-gradient.svg" alt="Instagram">
                 </a>
             </p>
         </div>
